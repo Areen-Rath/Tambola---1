@@ -21,6 +21,8 @@ def setup():
 
     print("\t\t\t\tSERVER IS WAITING FOR INCOMING CONNECTIONS...\n")
 
+    accept_connections()
+
 def accept_connections():
     global SERVER
     global CLIENTS
